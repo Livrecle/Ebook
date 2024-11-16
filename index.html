@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Boutique d'Ebooks</title>
+    <style>
+        /* Styles généraux */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        /* En-tête */
+        header {
+            background-color: #4a8a8e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.1em;
+        }
+
+        /* Section des ebooks */
+        .ebook-section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .category {
+            margin-bottom: 40px;
+        }
+
+        .category h2 {
+            font-size: 1.8em;
+            color: #4a8a8e;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .ebook-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        /* Carte d'ebook */
+        .ebook-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 280px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .ebook-card img {
+            width: 100%;
+            height: auto;
+        }
+        .ebook-card h3 {
+            font-size: 1.4em;
+            color: #4a8a8e;
+            margin: 15px 0;
+        }
+        .ebook-card p {
+            padding: 0 15px;
+            color: #666;
+        }
+        .ebook-card .price {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        /* Bouton d'achat */
+        .buy-button {
+            background-color: #4a8a8e;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 15px 0;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .buy-button:hover {
+            background-color: #37676a;
+        }
+
+        /* Pied de page */
+        footer {
+            background-color: #f1f1f1;
+            color: #666;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- En-tête du site -->
+    <header>
+        <h1>Bienvenue sur Ma Boutique d'Ebooks</h1>
+        <p>Découvrez et achetez des ebooks pour approfondir vos connaissances.</p>
+    </header>
+
+    <!-- Section des catégories et ebooks -->
+    <section class="ebook-section">
+
+        <!-- Catégorie 1 -->
+        <div class="category">
+            <h2>Catégorie : Développement Personnel</h2>
+            <div class="ebook-grid">
+                <div class="ebook-card">
+                    <img src="photo/cawi.png" alt="Ebook 1">
+                    <h3>Le Pouvoir de la Connaissance</h3>
+                    <p>Explorez les mystères de la connaissance humaine à travers ce guide complet.</p>
+                    <div class="price">9.99 €</div>
+                    <a href="#" class="buy-button">Acheter</a>
+                </div>
+                <div class="ebook-card">
+                    <img src="photo/la roqya la plus puissante.png" alt="Ebook 2">
+                    <h3>Les Secrets de la Motivation</h3>
+                    <p>Un guide pratique pour développer votre motivation et atteindre vos objectifs.</p>
+                    <div class="price">12.99 €</div>
+
+                    <style>.pp-2RPKMJZK4FQ84{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
+<form action="https://www.paypal.com/ncp/payment/2RPKMJZK4FQ84" method="post" target="_top" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+  <input class="pp-2RPKMJZK4FQ84" type="submit" value="Acheter" />
+  <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
+  <section> Optimisé par <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
+</form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catégorie 2 -->
+        <div class="category">
+            <h2>Catégorie : Entrepreneuriat</h2>
+            <div class="ebook-grid">
+                <div class="ebook-card">
+                    <img src="photo/medecine.png" alt="Ebook 3">
+                    <h3>Réussir en Entrepreneuriat</h3>
+                    <p>Apprenez les bases pour lancer et développer votre propre entreprise.</p>
+                    <div class="price">15.99 €</div>
+                    <a href="#" class="buy-button">Acheter</a>
+                </div>
+                <div class="ebook-card">
+                    <img src="photo/someil.png" alt="Ebook 4">
+                    <h3>Start-Up Essentials</h3>
+                    <p>Les outils nécessaires pour démarrer une start-up avec succès.</p>
+                    <div class="price">18.99 €</div>
+                    <a href="#" class="buy-button">Acheter</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Catégorie 3 -->
+        <div class="category">
+            <h2>Catégorie : Bien-être</h2>
+            <div class="ebook-grid">
+                <div class="ebook-card">
+                    <img src="photo/120ail.png" alt="Ebook 5">
+                    <h3>Vivre Sainement</h3>
+                    <p>Des conseils pour une vie plus équilibrée et en pleine santé.</p>
+                    <div class="price">10.99 €</div>
+                    <a href="#" class="buy-button">Acheter</a>
+                </div>
+                <div class="ebook-card">
+                    <img src="photo/secret coranique.png" alt="Ebook 6">
+                    <h3>Relaxation et Méditation</h3>
+                    <p>Découvrez les techniques pour un esprit calme et une vie sereine.</p>
+                    <div class="price">11.99 €</div>
+                    <a href="#" class="buy-button">Acheter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2023 Ma Boutique d'Ebooks - Tous droits réservés | Contactez-nous : contact@boutiqueebooks.com</p>
+    </footer>
+
+</body>
+</html>
